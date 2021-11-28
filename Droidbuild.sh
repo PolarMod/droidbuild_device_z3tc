@@ -1,4 +1,6 @@
+
 target_z3tc(){
+    LOCAL_PATH=$(dirname $BASH_SOURCE)
     # Clean build variables
     include $BASEDIR/droidbuild/build_vars.sh
     # As we would need to download some external sources for z3tc we
@@ -14,9 +16,17 @@ target_z3tc(){
       $BASEDIR/vendor/sony
       $BASEDIR/kernel/sony
     )
+    # Codename of device
+    TARGET_CODENAME="z3tc"
+    # Fully qualified model name
+    TARGET_FULLNAME="Sony Xperia Z3 Tablet Compact"
+    # Build type
+    TARGET_BUILDTYPE="userdebug"
+    # Call build
     target_build-device
 }
+
 # Currently dummy droidbuld target is required
 droidbuild_module(){
-  
+    info "Droidbuild for z3tc called"  
 }
