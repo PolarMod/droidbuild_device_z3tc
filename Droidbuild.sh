@@ -1,3 +1,4 @@
+setup_target z3tc
 
 target_z3tc(){
     LOCAL_PATH=$(dirname $BASH_SOURCE)
