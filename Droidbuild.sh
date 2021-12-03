@@ -22,6 +22,8 @@ target_z3tc(){
     TARGET_FULLNAME="Sony Xperia Z3 Tablet Compact"
     # Build type
     TARGET_BUILDTYPE="userdebug"
+    # Sign build
+    TARGET_SIGNED_BUILD=true
     # Call build
     target_build-device
 }
