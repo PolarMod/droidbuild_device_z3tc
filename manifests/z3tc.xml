@@ -8,7 +8,7 @@
   <remote  name="gitlab_sony" fetch="https://gitlab.com/sony_scorpion/" />
   <project name="android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="lineage-18.1" remote="gitlab_sony" />
   <project name="android_device_sony_shinano-common" path="device/sony/shinano-common" revision="lineage-18.0" remote="gitlab_sony" />
-  <project name="android_device_sony_z3tc" path="device/sony/z3tc" revision="lineage-18.1" remote="gitlab_sony" />
+  <project name="Andrewerr/android_device_sony_z3tc" path="device/sony/z3tc" revision="lineage-18.1" remote="gitlab" />
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="lineage-18.1" remote="gitlab_sony" />
   <project name="android_vendor_sony" path="vendor/sony" revision="lineage-18.1" remote="gitlab_sony" />
 </manifest>
