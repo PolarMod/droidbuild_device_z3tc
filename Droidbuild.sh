@@ -22,7 +22,7 @@ target_z3tc(){
     # Fully qualified model name
     TARGET_FULLNAME="Sony Xperia Z3 Tablet Compact"
     # Build type
-    TARGET_BUILDTYPE="userdebug"
+    TARGET_BUILDTYPE="eng"
     # Sign build
     TARGET_SIGNED_BUILD=true
     # Call build
